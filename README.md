@@ -20,21 +20,30 @@ The provided dataset contains around 8.5k news data on the different news portal
 Approach:
 ---------
  The dataset contains raw data and we have cleaned this dataset by removing stop-words, special characters, and punctuations in the pre-processing stage. For separating every word, we have used here tokenization. Then we extracted the features from the news data using TF-IDF. The following diagram is for workflow:
+ 
+![Capture 1PNG](https://user-images.githubusercontent.com/115772405/214100292-d20cac80-5399-43a3-b94d-6d47e01cfa52.PNG)
+
+
+                                               Fig.2. Block Diagram of Fake News Classification
+
+We have classified the news according to the following steps:
+
+Step 1:  Load the dataset.
+
+Step 2:  Remove stop words, punctuations, and special characters.
+
+Step 3:  Use TF-IDF for feature extraction.
+
+Step 4: Then split the dataset into 70% and 30% where 70% is for training and 30% is for testing part.  
+
+Step 5:  Use Machine learning models (Random Forest, Logistic Regression, KNN, Decision Tree).
+
+Step 6:   Calculate Recall, Precision, F1 Score, and Accuracy for every model. From these Metrics, we have got the best model for which we have got the best accuracy.
+
 
 ![Capture3](https://user-images.githubusercontent.com/115772405/214100318-b03035af-4e06-434e-8e5b-104952133ce3.PNG)
 
-                                        Fig.2. Block Diagram of Fake News Classification
-
-We have classified the news according to the following steps:
-Step 1:  Load the dataset.
-Step 2:  Remove stop words, punctuations, and special characters.
-Step 3:  Use TF-IDF for feature extraction.
-Step 4: Then split the dataset into 70% and 30% where 70% is for training and 30% is for testing part.  
-Step 5:  Use Machine learning models (Random Forest, Logistic Regression, KNN, Decision Tree).
-Step 6:   Calculate Recall, Precision, F1 Score, and Accuracy for every model. From these Metrics, we have got the best model for which we have got the best accuracy.
-
-![Capture 1PNG](https://user-images.githubusercontent.com/115772405/214100292-d20cac80-5399-43a3-b94d-6d47e01cfa52.PNG)
-                 Table.1.  Performance Table of Machine Learning Models
+                                          Fig.3. Performance Table of Machine Learning Models
 
 
 Conclusion:
