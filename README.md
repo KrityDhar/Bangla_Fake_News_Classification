@@ -10,7 +10,7 @@ Nowadays, everything is getting digitalized. So, with the blessings of modern te
 
 Dataset:
 --------
-The provided dataset contains around 8.5k news data on the different news portals. Between these, around 7k are authentic, and around 1k are fake news. The fake news is labeled with 0 and the real news is labeled with 1.
+The provided dataset contains around 8.5k news data on the different news portals. Between these, around 7k are authentic, and around 1k are fake news. The fake news is labeled with 1 and the real news is labeled with 0.
  
 ![Capture](https://user-images.githubusercontent.com/115772405/214100462-5c2c5722-f908-47df-b69a-5086909d67e8.PNG)
 
